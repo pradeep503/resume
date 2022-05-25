@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-content{
+    min-height: 1000px;
+    width: 90%;
+    display:grid;
+    grid-template-columns: 300px 700px;
+    margin:20px auto;
+    background-color: #a5abf5;
+    color: #000000;
+}
+@media(max-width:673px) {
+    .main-content{
+        grid-template-columns: repeat(1,1fr);
+    } 
+}
+.left-section{
+    grid-column: span 1;
+    background-color: #242531;
+}
+
+
+.right-section{
+   grid-column: span 1/span 2;
+   background-color:rgb(191, 230, 245); 
+}
+
+.left-content{
+    padding: 1rem;  
+}
+
+.profile-image{
+    padding: 1rem;
+    border: 5px solid white;
+    border-radius: 30%;
+    width: 60%;
+    display: block;
+    margin: auto;  
+ }
+
+ .name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.02px;
+    padding: 0.8rem;
+    color: antiquewhite;
+    text-transform: uppercase;
+}   
+
+.designation{
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 0.5rem ;
+    color: antiquewhite;
+    text-transform: uppercase;
+}
+
+.description{
+    font-size: 0.75rem;
+    text-align: center;
+    padding:1rem;
+    color: antiquewhite;
+    text-transform: uppercase;
+}
+
+.social-media{
+    height: 27;
+    width: 268;
+    
+}
+.icon{
+    height: 20;
+    width: 27;
+    margin-right: 1em;
+    
+}
+.social-media > li{
+    float:left;
+    display:inline;
+    padding-left: 30px;  
+}
+.personal-details > li{
+    margin-top: 10px;
+    list-style-type: none;
+    
+}
+a{
+    text-decoration: none;
+    color: skyblue;
+}
+.Skills{
+    width: 268;
+    height: 408;
+}
+.skills-conent{
+    width: 252;
+    height: 352;
+}
+.skills{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 0.75rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-transform: uppercase;
+}
+.skill-item{
+    width: 252;
+    height: 44;
+}
+.skill-name{
+    font-size: 0.65rem;
+    font-weight: 0.65rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+    color: antiquewhite;
+    
+    }
+.skill-progress{
+    width: 236;
+    grid-template: 4;
+}
+.progress-bar {
+    border: 1px white solid;
+    height: 4px;
+    display: inline; 
+    width: 188.8;
+} 
+
+
+.right-main-content{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.about-me{
+    width: 604;
+    height: 192.32;
+}
+.para{
+    text-align: justify;
+}
+.h3{
+    display: inline;
+}.hh3{
+    display: inline;
+    float: right;
+    
+}
+
+.h6{
+    display: inline-block;
+    float: right;
+}
+.work{
+    display: inline-block;
+    float: right;
+}
+.Comp{
+    display: inline-block;
+}
+.exp{
+    text-align: justify;
+}
+.coal{
+    text-align: justify;
+}
+
+.firstpro{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
